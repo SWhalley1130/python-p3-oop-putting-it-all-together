@@ -19,9 +19,3 @@ class Book:
 
 
     page_count=property(get_page_count, set_page_count)
-
-book=Book("Titlehere")
-print(book.title)
-print(book.page_count)
-book.page_count=200
-print(book.page_count)
